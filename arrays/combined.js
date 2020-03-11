@@ -133,7 +133,6 @@ maxProd([-10, 7, 29, 30, 5, -10, -70,-90,100]);
             uniqueIntersection.push(x);
         }
     }
-
     console.log("The unique common values are " + uniqueIntersection);
   }
 
