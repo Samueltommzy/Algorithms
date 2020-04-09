@@ -1,2 +1,2 @@
 # Algorithms
-Solving algorithm and data structure problems using python and javascript..from basics to complex
+Solving algorithm and data structure problems using python,javascript and java.

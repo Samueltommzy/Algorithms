@@ -4,7 +4,8 @@ public class ArrayRotate {
     public static void main(String[] args){
         //Test
         int[] x = {1,2,3,4,5,6,7,8};
-        System.out.println(rotateArr(x,3));
+        int n = x.length;
+        System.out.println(rotateArr(x,n,3));
     }
      /**
      * This method rotates an array of size n by d elements
@@ -13,7 +14,7 @@ public class ArrayRotate {
      * @param d - Element
      * @return  Array
      */
-    public static List<Integer> rotateArr(int[] arr,int d){
+    public static List<Integer> rotateArr(int[] arr,int n,int d){
         List<Integer> ls = new ArrayList<Integer>();
         if(d==0){
             return ls;
